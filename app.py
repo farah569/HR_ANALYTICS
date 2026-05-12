@@ -6,8 +6,8 @@ import numpy as np
 
 st.set_page_config(page_title="HR Attrition Dashboard", layout="wide")
 
-df = pd.read_csv(r"C:\HR_ANALYTICS\data\HR_Employee_Attrition.csv")
-model = joblib.load(r"C:\HR_ANALYTICS\models\model.pkl")
+df = pd.read_csv("data/HR_Employee_Attrition.csv")
+model = joblib.load("models/model.pkl")
 
 df_model = df.copy()
 df_model['Attrition']  = df_model['Attrition'].map({'Yes': 1, 'No': 0})
