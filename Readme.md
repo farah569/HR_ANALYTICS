@@ -1,7 +1,7 @@
  #HR Employee Attrition Analysis & Prediction
 
 An end-to-end data analysis and machine learning and data analytics project that helps HR departments identify employees at risk of leaving and take action before it's too late.
-Live Demo: 
+Live Demo: https://fofa37-aguqhqvngsijwhx4k74qmq.streamlit.app/
 -------------------------------------------------------------------------------------------------------
 1-Problem Statement
 Employee attrition costs companies 50–200% of an employee's annual salary in recruiting and onboarding. Most HR teams only discover the problem after an employee resigns. This project builds a system that predicts attrition risk in real time, giving HR teams a chance to intervene early.
